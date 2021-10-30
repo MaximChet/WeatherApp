@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1824F552259A41AF00ED3FB5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1824F551259A41AF00ED3FB5 /* .gitignore */; };
+		182C8540258D092A00DC301C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C853F258D092A00DC301C /* AppDelegate.swift */; };
+		182C8542258D092A00DC301C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C8541258D092A00DC301C /* SceneDelegate.swift */; };
+		182C8544258D092A00DC301C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C8543258D092A00DC301C /* ViewController.swift */; };
+		182C8547258D092A00DC301C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182C8545258D092A00DC301C /* Main.storyboard */; };
+		182C8549258D092D00DC301C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182C8548258D092D00DC301C /* Assets.xcassets */; };
+		182C854C258D092D00DC301C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182C854A258D092D00DC301C /* LaunchScreen.storyboard */; };
+		18B588B12593909F00AE6E36 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B588B02593909F00AE6E36 /* CurrentWeatherData.swift */; };
+		18B588B92593A81800AE6E36 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B588B82593A81800AE6E36 /* CurrentWeather.swift */; };
+		18EEC0BA25914F0E00CAF046 /* NetworkWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEC0B925914F0E00CAF046 /* NetworkWeather.swift */; };
+		18EEC0C72591522900CAF046 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEC0C62591522900CAF046 /* Constans.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182C8553258D092D00DC301C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C8534258D092A00DC301C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182C853B258D092A00DC301C;
+			remoteInfo = hidekeyboard;
+		};
+		182C855E258D092D00DC301C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182C8534258D092A00DC301C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182C853B258D092A00DC301C;
+			remoteInfo = hidekeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1824F551259A41AF00ED3FB5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		182C853C258D092A00DC301C /* hidekeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hidekeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182C853F258D092A00DC301C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182C8541258D092A00DC301C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182C8543258D092A00DC301C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182C8546258D092A00DC301C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182C8548258D092D00DC301C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182C854B258D092D00DC301C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182C854D258D092D00DC301C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182C8552258D092D00DC301C /* hidekeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hidekeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182C855D258D092D00DC301C /* hidekeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hidekeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B588B02593909F00AE6E36 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		18B588B82593A81800AE6E36 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		18EEC0B925914F0E00CAF046 /* NetworkWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeather.swift; sourceTree = "<group>"; };
+		18EEC0C62591522900CAF046 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182C8539258D092A00DC301C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C854F258D092D00DC301C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C855A258D092D00DC301C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182C8533258D092A00DC301C = {
+			isa = PBXGroup;
+			children = (
+				1824F551259A41AF00ED3FB5 /* .gitignore */,
+				18EEC0B925914F0E00CAF046 /* NetworkWeather.swift */,
+				18B588B82593A81800AE6E36 /* CurrentWeather.swift */,
+				18B588B02593909F00AE6E36 /* CurrentWeatherData.swift */,
+				18EEC0C62591522900CAF046 /* Constans.swift */,
+				182C853E258D092A00DC301C /* WeatherApp */,
+				182C853D258D092A00DC301C /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		182C853D258D092A00DC301C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182C853C258D092A00DC301C /* hidekeyboard.app */,
+				182C8552258D092D00DC301C /* hidekeyboardTests.xctest */,
+				182C855D258D092D00DC301C /* hidekeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182C853E258D092A00DC301C /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				182C853F258D092A00DC301C /* AppDelegate.swift */,
+				182C8541258D092A00DC301C /* SceneDelegate.swift */,
+				182C8543258D092A00DC301C /* ViewController.swift */,
+				182C8545258D092A00DC301C /* Main.storyboard */,
+				182C8548258D092D00DC301C /* Assets.xcassets */,
+				182C854A258D092D00DC301C /* LaunchScreen.storyboard */,
+				182C854D258D092D00DC301C /* Info.plist */,
+			);
+			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182C853B258D092A00DC301C /* hidekeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182C8566258D092D00DC301C /* Build configuration list for PBXNativeTarget "hidekeyboard" */;
+			buildPhases = (
+				182C8538258D092A00DC301C /* Sources */,
+				182C8539258D092A00DC301C /* Frameworks */,
+				182C853A258D092A00DC301C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hidekeyboard;
+			productName = hidekeyboard;
+			productReference = 182C853C258D092A00DC301C /* hidekeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182C8551258D092D00DC301C /* hidekeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182C8569258D092D00DC301C /* Build configuration list for PBXNativeTarget "hidekeyboardTests" */;
+			buildPhases = (
+				182C854E258D092D00DC301C /* Sources */,
+				182C854F258D092D00DC301C /* Frameworks */,
+				182C8550258D092D00DC301C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182C8554258D092D00DC301C /* PBXTargetDependency */,
+			);
+			name = hidekeyboardTests;
+			productName = hidekeyboardTests;
+			productReference = 182C8552258D092D00DC301C /* hidekeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182C855C258D092D00DC301C /* hidekeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182C856C258D092D00DC301C /* Build configuration list for PBXNativeTarget "hidekeyboardUITests" */;
+			buildPhases = (
+				182C8559258D092D00DC301C /* Sources */,
+				182C855A258D092D00DC301C /* Frameworks */,
+				182C855B258D092D00DC301C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182C855F258D092D00DC301C /* PBXTargetDependency */,
+			);
+			name = hidekeyboardUITests;
+			productName = hidekeyboardUITests;
+			productReference = 182C855D258D092D00DC301C /* hidekeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182C8534258D092A00DC301C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					182C853B258D092A00DC301C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					182C8551258D092D00DC301C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 182C853B258D092A00DC301C;
+					};
+					182C855C258D092D00DC301C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 182C853B258D092A00DC301C;
+					};
+				};
+			};
+			buildConfigurationList = 182C8537258D092A00DC301C /* Build configuration list for PBXProject "WeatherApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182C8533258D092A00DC301C;
+			productRefGroup = 182C853D258D092A00DC301C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182C853B258D092A00DC301C /* hidekeyboard */,
+				182C8551258D092D00DC301C /* hidekeyboardTests */,
+				182C855C258D092D00DC301C /* hidekeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182C853A258D092A00DC301C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824F552259A41AF00ED3FB5 /* .gitignore in Resources */,
+				182C854C258D092D00DC301C /* LaunchScreen.storyboard in Resources */,
+				182C8549258D092D00DC301C /* Assets.xcassets in Resources */,
+				182C8547258D092A00DC301C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C8550258D092D00DC301C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C855B258D092D00DC301C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182C8538258D092A00DC301C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B588B12593909F00AE6E36 /* CurrentWeatherData.swift in Sources */,
+				182C8544258D092A00DC301C /* ViewController.swift in Sources */,
+				18EEC0BA25914F0E00CAF046 /* NetworkWeather.swift in Sources */,
+				18EEC0C72591522900CAF046 /* Constans.swift in Sources */,
+				18B588B92593A81800AE6E36 /* CurrentWeather.swift in Sources */,
+				182C8540258D092A00DC301C /* AppDelegate.swift in Sources */,
+				182C8542258D092A00DC301C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C854E258D092D00DC301C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182C8559258D092D00DC301C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182C8554258D092D00DC301C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182C853B258D092A00DC301C /* hidekeyboard */;
+			targetProxy = 182C8553258D092D00DC301C /* PBXContainerItemProxy */;
+		};
+		182C855F258D092D00DC301C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182C853B258D092A00DC301C /* hidekeyboard */;
+			targetProxy = 182C855E258D092D00DC301C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182C8545258D092A00DC301C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182C8546258D092A00DC301C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182C854A258D092D00DC301C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182C854B258D092D00DC301C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182C8564258D092D00DC301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182C8565258D092D00DC301C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182C8567258D092D00DC301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8VAXB46U6;
+				INFOPLIST_FILE = hidekeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksey-Shirokov.hidekeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		182C8568258D092D00DC301C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8VAXB46U6;
+				INFOPLIST_FILE = hidekeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksey-Shirokov.hidekeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		182C856A258D092D00DC301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8VAXB46U6;
+				INFOPLIST_FILE = hidekeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksey-Shirokov.hidekeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hidekeyboard.app/hidekeyboard";
+			};
+			name = Debug;
+		};
+		182C856B258D092D00DC301C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8VAXB46U6;
+				INFOPLIST_FILE = hidekeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksey-Shirokov.hidekeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hidekeyboard.app/hidekeyboard";
+			};
+			name = Release;
+		};
+		182C856D258D092D00DC301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8VAXB46U6;
+				INFOPLIST_FILE = hidekeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksey-Shirokov.hidekeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hidekeyboard;
+			};
+			name = Debug;
+		};
+		182C856E258D092D00DC301C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8VAXB46U6;
+				INFOPLIST_FILE = hidekeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksey-Shirokov.hidekeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hidekeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182C8537258D092A00DC301C /* Build configuration list for PBXProject "WeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C8564258D092D00DC301C /* Debug */,
+				182C8565258D092D00DC301C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182C8566258D092D00DC301C /* Build configuration list for PBXNativeTarget "hidekeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C8567258D092D00DC301C /* Debug */,
+				182C8568258D092D00DC301C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182C8569258D092D00DC301C /* Build configuration list for PBXNativeTarget "hidekeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C856A258D092D00DC301C /* Debug */,
+				182C856B258D092D00DC301C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182C856C258D092D00DC301C /* Build configuration list for PBXNativeTarget "hidekeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182C856D258D092D00DC301C /* Debug */,
+				182C856E258D092D00DC301C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182C8534258D092A00DC301C /* Project object */;
+}
